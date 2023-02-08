@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+
+body{
+    background-color: #FAF7F0;
+}
+
+
+h1 {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(5px 5px 10px #98A8F8);
+}
+
+#logo {
+    height: 200px;
+    width: 200px;
+}
+
+h2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(5px 5px 10px #98A8F8);
+}
+
+nav{
+    font-size: 25px;
+    filter: drop-shadow(5px 5px 10px #98A8F8);
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+#foto{
+    height: 100vh;
+    width: 60vw;
+    padding: 2px;
+    border: 2px solid black;
+    position: relative;
+    align-items: center;
+}
+#foto1{
+    height: 100vh;
+    width: 60vw;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+#reglas{
+    padding: 80px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reglas1{
+    font-size:x-large;
+    padding: 10px 10px;
+}
+h4{
+    padding: 10px;
+    font-size: x-large;
+}
+
+h5{
+    text-decoration: solid;
+    font-size: large;
+}
+
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 2em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #3D6CB9;
+    color: #faf7f0;
+    text-shadow: 6px 6px black;
+
+    text-align: center;
+}
+.content-table th,
+
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #faf7f0 ;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #3D6CB9;
+}
+
+#info{
+    padding: 20px;
+}
+
+#game-info{
+    padding: 30px;
+    text-decoration: underline;
+}
+#game1{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    filter: drop-shadow(5px 5px 10px #98A8F8);
+}
+
+#game2{
+    font-size: 25px;
+    
+
+}
+span{
+    font-size: 20px;
+    padding: 10px;
+}
+
+#reg{
+    font-size:medium;
+    margin-bottom: 6px;
+}
+
+#sec-form{
+    background-color: #98A8F8;
+    
+    color:rgb(19, 17, 17);
+    font-size: 20px;
+}
+
+fieldset{
+    padding-bottom: 10px;
+}
+
+.campos{
+    margin: 10px;
+    padding: 15px;
+}
+
+#permision-reg{
+    margin: 10px;
+    padding: 10px;
+}
+
+.subtitle{
+    margin: 10px;
+    padding: 10px;
+}
+#button{
+    height: 60px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 900px;
+    border-radius: 10px;
+}
+
+
+#m1{
+    margin: 10px 30px 10px 30px;  
+}
+#m2{
+    margin: 10px 30px 10px 30px;  
+}
+#m3{
+    margin: 10px 30px 10px 30px;  
+}
+#m4{
+    margin: 10px 30px 10px 30px;  
+}
+
+#ubicat{
+    padding: 500px;
+}
